@@ -1,0 +1,77 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeature>
+  <Version>ED00014</Version>
+  <Country>MEXICO</Country>
+  <CountryISO>MX</CountryISO>
+  <SalesCode>TCE</SalesCode>
+  <FeatureSet>
+    <CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
+    <CscFeature_Common_AutoConfigurationType>NO_DFLT_CSC, SIMBASED_OMC</CscFeature_Common_AutoConfigurationType>
+    <CscFeature_Common_ConfigAllowedPackagesDuringDataSaving>com.samsung.android.smartcallprovider</CscFeature_Common_ConfigAllowedPackagesDuringDataSaving>
+    <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
+    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,whitepages</CscFeature_Common_ConfigSvcProviderForUnknownNumber>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
+    <CscFeature_Common_SupportDLNA>DMC_ONLY</CscFeature_Common_SupportDLNA>
+    <CscFeature_Common_SupportRmm>TRUE</CscFeature_Common_SupportRmm>
+    <CscFeature_Contact_ConfigOpStyleVariation>TCE</CscFeature_Contact_ConfigOpStyleVariation>
+    <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
+    <CscFeature_Contact_SearchIncludingFdn>TRUE</CscFeature_Contact_SearchIncludingFdn>
+    <CscFeature_Framework_ConfigDefaultFeedsPanels>com.samsung.android.app.catchfavorites.catchnotifications.CatchNotificationsCocktailProvider</CscFeature_Framework_ConfigDefaultFeedsPanels>
+    <CscFeature_GMS_SetClientIDBaseAm>android-americamovil-{country}</CscFeature_GMS_SetClientIDBaseAm>
+    <CscFeature_GMS_SetClientIDBaseMs>android-americamovil-{country}-revc</CscFeature_GMS_SetClientIDBaseMs>
+    <CscFeature_Launcher_DefaultPageNumber>0</CscFeature_Launcher_DefaultPageNumber>
+    <CscFeature_Launcher_FixedStkTitleAs>NoSIM%SIM Telcel</CscFeature_Launcher_FixedStkTitleAs>
+    <CscFeature_Launcher_TotalPageCount>2</CscFeature_Launcher_TotalPageCount>
+    <CscFeature_Message_DisableSmsToMmsConversionByTextInput>TRUE</CscFeature_Message_DisableSmsToMmsConversionByTextInput>
+    <CscFeature_Music_TranslateUnknownTitle>TRUE</CscFeature_Music_TranslateUnknownTitle>
+    <CscFeature_Phone_DisableEnterNCK>TRUE</CscFeature_Phone_DisableEnterNCK>
+    <CscFeature_Phone_DisableQuitNetworkLockByManual>TRUE</CscFeature_Phone_DisableQuitNetworkLockByManual>
+    <CscFeature_Setting_ChangeApprovedModemVersion>TRUE</CscFeature_Setting_ChangeApprovedModemVersion>
+    <CscFeature_Setting_DefDialingKeypadTone>OFF</CscFeature_Setting_DefDialingKeypadTone>
+    <CscFeature_Setting_DisableMenuInternetCallSetting>TRUE</CscFeature_Setting_DisableMenuInternetCallSetting>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Setting_RemoveMenuInLockScreenTicker>0,1</CscFeature_Setting_RemoveMenuInLockScreenTicker>
+    <CscFeature_VT_SupportMerge>TRUE</CscFeature_VT_SupportMerge>
+    <CscFeature_Vision_ConfigImageSearch>PTRXX</CscFeature_Vision_ConfigImageSearch>
+    <CscFeature_Vision_ConfigPlace>FSRXX</CscFeature_Vision_ConfigPlace>
+    <CscFeature_Vision_ConfigShopping>AMZMX</CscFeature_Vision_ConfigShopping>
+    <CscFeature_Vision_ConfigTextTranslator>GGLXX</CscFeature_Vision_ConfigTextTranslator>
+    <CscFeature_Vision_ConfigWine>VVNXX</CscFeature_Vision_ConfigWine>
+    <CscFeature_VoiceCall_ConfigOpStyleForHdIcon>TCE_HD</CscFeature_VoiceCall_ConfigOpStyleForHdIcon>
+    <CscFeature_VoiceCall_DisableUssdCancelPopup>TRUE</CscFeature_VoiceCall_DisableUssdCancelPopup>
+    <CscFeature_VoiceCall_DisableUssdCompleteNoti>TRUE</CscFeature_VoiceCall_DisableUssdCompleteNoti>
+    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
+    <CscFeature_VoiceCall_EnableCallButtonInFdnList>TRUE</CscFeature_VoiceCall_EnableCallButtonInFdnList>
+    <CscFeature_VoiceCall_EnableDetailCallEndCause>TRUE</CscFeature_VoiceCall_EnableDetailCallEndCause>
+    <CscFeature_VoiceCall_EnableDisplaySdnNameDuringCall>TRUE</CscFeature_VoiceCall_EnableDisplaySdnNameDuringCall>
+    <CscFeature_VoiceCall_UseUssdToastForNetworkNoResp>TRUE</CscFeature_VoiceCall_UseUssdToastForNetworkNoResp>
+    <CscFeature_Weather_ConfigCpType>TWC</CscFeature_Weather_ConfigCpType>
+    <CscFeature_Web_ConfigNewTab>Homepage</CscFeature_Web_ConfigNewTab>
+    <CscFeature_Web_DefBookmarkFolderName>Chrome,Telcel</CscFeature_Web_DefBookmarkFolderName>
+    <CscFeature_Web_DisableAllSearchEngineExceptGoogle>TRUE</CscFeature_Web_DisableAllSearchEngineExceptGoogle>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>TRUE</CscFeature_Web_RemoveBrowserIconInBookmarkThumbnailWidget>
+	<CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,MobileData,SoundMode,SilentMode,Bluetooth,RotationLock,Flashlight,ScreenCapture,ScreenRecorder,TouchSensitivity,WifiCalling,UHQ,AirplaneMode,PowerSaving,ColorInversion,PersonalMode,PowerSaving,Performance,BlueLightFilter,Hotspot,DormantMode,WifiHotspot,SecureFolder,Location,Nfc,Aod,AllShareCast,DeviceVisibility,Ebook,Dnd,Sync,UDS,BikeMode,PowerPlanning,EdgeLighting,VoLte,User,Dolby,FloatingMessage,RomControl,AppLock</CscFeature_SystemUI_ConfigDefQuickSettingItem>
+	<CscFeature_Camera_EnableCameraDuringCall>TRUE</CscFeature_Camera_EnableCameraDuringCall>
+	<CscFeature_Camera_ConfigVoiceControlPopUp>TRUE</CscFeature_Camera_ConfigVoiceControlPopUp>
+	<CscFeature_Camera_EnableSmsNotiPopup>TRUE</CscFeature_Camera_EnableSmsNotiPopup>
+	<CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>
+	<CscFeature_Camera_CamcorderDoNotPauseMusic>TRUE</CscFeature_Camera_CamcorderDoNotPauseMusic>
+	<CscFeature_Camera_DisableGPSMenu>false</CscFeature_Camera_DisableGPSMenu>
+	<CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
+	<CscFeature_Camera_DefaultQuality>superfine</CscFeature_Camera_DefaultQuality>
+	<CscFeature_Camcorder_DefaultQuality>superfine</CscFeature_Camcorder_DefaultQuality>
+	<CscFeature_Camcorder_DoNotPauseMusic>TRUE</CscFeature_Camcorder_DoNotPauseMusic>
+	<CscFeature_Camera_CamcorderEnablePromptPopupToSelectRecMode>TRUE</CscFeature_Camera_CamcorderEnablePromptPopupToSelectRecMode>
+	<CscFeature_Framework_SupportDataModeSwitchGlobalAction>TRUE</CscFeature_Framework_SupportDataModeSwitchGlobalAction>
+	
+  <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+<CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
+<CscFeature_SystemUI_SupportRecentAppProtection>TRUE</CscFeature_SystemUI_SupportRecentAppProtection>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|storageclean|backgroundapp|applock|notificationmanager|trafficmanager|trafficmanager_auto|data_compression|cstyle|autolaunch|appclean|fake_base_station|UDS2|devicesecurity|badappnoti</CscFeature_SmartManager_ConfigSubFeatures>
+	<CscFeature_SmartManager_ConfigDashboard>dual_dashboard</CscFeature_SmartManager_ConfigDashboard>
+	<CscFeature_SmartManager_DisableAntiMalware></CscFeature_SmartManager_DisableAntiMalware>
+	<CscFeature_Common_ConfigLocalSecurityPolicy>ChinaNalSecurity</CscFeature_Common_ConfigLocalSecurityPolicy>
+
+</FeatureSet>
+</SamsungMobileFeature>

@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SW-Configuration>
+    <MobileData>
+        <PublicName>SM-N950F</PublicName>
+    </MobileData>
+    <OmcYn>Y</OmcYn>
+    <MultiCode>OXM</MultiCode>
+    <CustomerDataSet>
+        <CSCName>N950FOXM</CSCName>
+        <CSCVersion>FDUE3</CSCVersion>
+        <NbCustomer>75</NbCustomer>
+        <CustomerData src="/Customer/ACR/customer.xml" />
+        <CustomerData src="/Customer/AFG/customer.xml" />
+        <CustomerData src="/Customer/AFR/customer.xml" />
+        <CustomerData src="/Customer/ARO/customer.xml" />
+        <CustomerData src="/Customer/ATO/customer.xml" />
+        <CustomerData src="/Customer/AUT/customer.xml" />
+        <CustomerData src="/Customer/BGL/customer.xml" />
+        <CustomerData src="/Customer/BNG/customer.xml" />
+        <CustomerData src="/Customer/BRI/customer.xml" />
+        <CustomerData src="/Customer/BTC/customer.xml" />
+        <CustomerData src="/Customer/BTU/customer.xml" />
+        <CustomerData src="/Customer/CAC/customer.xml" />
+        <CustomerData src="/Customer/CAM/customer.xml" />
+        <CustomerData src="/Customer/CEL/customer.xml" />
+        <CustomerData src="/Customer/CHO/customer.xml" />
+        <CustomerData src="/Customer/COO/customer.xml" />
+        <CustomerData src="/Customer/DBT/customer.xml" />
+        <CustomerData src="/Customer/DKR/customer.xml" />
+        <CustomerData src="/Customer/ECT/customer.xml" />
+        <CustomerData src="/Customer/EGY/customer.xml" />
+        <CustomerData src="/Customer/EON/customer.xml" />
+        <CustomerData src="/Customer/ETL/customer.xml" />
+        <CustomerData src="/Customer/EUR/customer.xml" />
+        <CustomerData src="/Customer/GLB/customer.xml" />
+        <CustomerData src="/Customer/ILO/customer.xml" />
+        <CustomerData src="/Customer/INS/customer.xml" />
+        <CustomerData src="/Customer/ITV/customer.xml" />
+        <CustomerData src="/Customer/KSA/customer.xml" />
+        <CustomerData src="/Customer/LAO/customer.xml" />
+        <CustomerData src="/Customer/LUX/customer.xml" />
+        <CustomerData src="/Customer/LYS/customer.xml" />
+        <CustomerData src="/Customer/MAT/customer.xml" />
+        <CustomerData src="/Customer/MID/customer.xml" />
+        <CustomerData src="/Customer/MM1/customer.xml" />
+        <CustomerData src="/Customer/MWD/customer.xml" />
+        <CustomerData src="/Customer/MYM/customer.xml" />
+        <CustomerData src="/Customer/NEE/customer.xml" />
+        <CustomerData src="/Customer/NPL/customer.xml" />
+        <CustomerData src="/Customer/ORX/customer.xml" />
+        <CustomerData src="/Customer/PAK/customer.xml" />
+        <CustomerData src="/Customer/PCL/customer.xml" />
+        <CustomerData src="/Customer/PHE/customer.xml" />
+        <CustomerData src="/Customer/PHN/customer.xml" />
+        <CustomerData src="/Customer/PTR/customer.xml" />
+        <CustomerData src="/Customer/ROM/customer.xml" />
+        <CustomerData src="/Customer/SEB/customer.xml" />
+        <CustomerData src="/Customer/SEE/customer.xml" />
+        <CustomerData src="/Customer/SEK/customer.xml" />
+        <CustomerData src="/Customer/SER/customer.xml" />
+        <CustomerData src="/Customer/SIN/customer.xml" />
+        <CustomerData src="/Customer/SKZ/customer.xml" />
+        <CustomerData src="/Customer/SLK/customer.xml" />
+        <CustomerData src="/Customer/SMA/customer.xml" />
+        <CustomerData src="/Customer/STH/customer.xml" />
+        <CustomerData src="/Customer/THL/customer.xml" />
+        <CustomerData src="/Customer/THR/customer.xml" />
+        <CustomerData src="/Customer/TMC/customer.xml" />
+        <CustomerData src="/Customer/TPA/customer.xml" />
+        <CustomerData src="/Customer/TPH/customer.xml" />
+        <CustomerData src="/Customer/TTT/customer.xml" />
+        <CustomerData src="/Customer/TUN/customer.xml" />
+        <CustomerData src="/Customer/TUR/customer.xml" />
+        <CustomerData src="/Customer/WTL/customer.xml" />
+        <CustomerData src="/Customer/XEF/customer.xml" />
+        <CustomerData src="/Customer/XEH/customer.xml" />
+        <CustomerData src="/Customer/XEO/customer.xml" />
+        <CustomerData src="/Customer/XEU/customer.xml" />
+        <CustomerData src="/Customer/XFA/customer.xml" />
+        <CustomerData src="/Customer/XFE/customer.xml" />
+        <CustomerData src="/Customer/XME/customer.xml" />
+        <CustomerData src="/Customer/XSG/customer.xml" />
+        <CustomerData src="/Customer/XSP/customer.xml" />
+        <CustomerData src="/Customer/XTC/customer.xml" />
+        <CustomerData src="/Customer/XXV/customer.xml" />
+        <CustomerData src="/Customer/ZTO/customer.xml" />
+    </CustomerDataSet>
+    <OmcInfo>
+        <OmcCode>
+            <CustomerCode>ACR</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_ACR_PP_0002</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.setappbox.singularity.ziptv" />
+                <package name="com.bzbs.samsung.af" />
+                <package name="com.promolante.app" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>AFG</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_AFG_PP_0001</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>AFR</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_AFR_PP_0005</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ARO</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_ARO_PP_0032</Version>
+            <CustomerEdition>ED0014</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ATO</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_ATO_PP_0007</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+            <Packages>
+                <package name="com.hrs.b2c.android" />
+                <package name="b2b.hrs.android.lib" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>AUT</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_AUT_PP_0008</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>BGL</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_BGL_PP_0006</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>BNG</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_BNG_PP_0009</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>BRI</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_BRI_PP_0007</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>BTC</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_BTC_PP_0004</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>BTU</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_BTU_PP_0020</Version>
+            <CustomerEdition>ED0009</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>CAC</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_CAC_PP_0006</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>CAM</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_CAM_PP_0006</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>CEL</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_CEL_PP_0008</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+            <Packages>
+                <package name="com.cellcom.cellcom360" />
+                <package name="com.cellcom.browser" />
+                <package name="com.cellcom.music" />
+                <package name="com.cellcom.backup" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>CHO</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_CHO_PP_0022</Version>
+            <CustomerEdition>ED0010</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>COO</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_COO_PP_0026</Version>
+            <CustomerEdition>ED0011</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>DBT</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_DBT_PP_0011</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>DKR</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_DKR_PP_0004</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ECT</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_ECT_PP_0002</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>EGY</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_EGY_PP_0006</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>EON</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_EON_PP_0013</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ETL</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_ETL_PP_0005</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>EUR</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_EUR_PP_0011</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>GLB</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_GLB_PP_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.srph.emergency321" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ILO</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_ILO_PP_0010</Version>
+            <CustomerEdition>ED0007</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>INS</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_INS_PP_0013</Version>
+            <CustomerEdition>ED0008</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ITV</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_ITV_PP_0013</Version>
+            <CustomerEdition>ED0008</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>KSA</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_KSA_PP_0006</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>LAO</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_LAO_PP_0003</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>LUX</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_LUX_PP_0014</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+            <Packages>
+                <package name="com.samsung.intrafficreply" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>LYS</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_LYS_PP_0003</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>MAT</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_MAT_PP_0003</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>MID</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_MID_PP_0005</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>MM1</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_MM1_PP_0007</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="sg.gov.mnd.OneService" />
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.ministryofhomeaffairs.sgsecure.mhasg" />
+                <package name="com.m1.mym1" />
+                <package name="deezer.android.app" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>MWD</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_MWD_PP_0007</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>MYM</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_MYM_PP_0003</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>NEE</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_NEE_PP_0013</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>NPL</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_NPL_PP_0004</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ORX</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_ORX_PP_0008</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>PAK</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_PAK_PP_0001</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>PCL</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_PCL_PP_0012</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="pelephone.com.pelephonecyber" />
+                <package name="com.pelephone_mobile" />
+                <package name="com.beeweeb.pelephone.supertv" />
+                <package name="com.ewavemobile.songwaiting" />
+                <package name="com.pelephone.launcher" />
+                <package name="il.co.pelephone.musix.UI" />
+                <package name="il.co.pelephone.look4me" />
+                <package name="com.pelephone.cloud" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>PHE</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_PHE_PP_0011</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>PHN</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_PHN_PP_0015</Version>
+            <CustomerEdition>ED0009</CustomerEdition>
+            <Packages>
+                <package name="com.samsung.intrafficreply" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>PTR</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_PTR_PP_0008</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+            <Packages>
+                <package name="il.co.orange.mytv" />
+                <package name="il.co.partner.guard" />
+                <package name="il.co.orange.mybox" />
+                <package name="il.co.orange.app.myorange" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ROM</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_ROM_PP_0012</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SEB</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_SEB_PP_0010</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SEE</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_SEE_PP_0014</Version>
+            <CustomerEdition>ED0010</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SEK</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_SEK_PP_0008</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SER</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_SER_PP_0008</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+            <Packages>
+                <package name="ru.samsung.catalog" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SIN</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_SIN_PP_0008</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.ministryofhomeaffairs.sgsecure.mhasg" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SKZ</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_SKZ_PP_0007</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SLK</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_SLK_PP_0008</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SMA</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_SMA_PP_0003</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.srph.emergency321" />
+                <package name="smart.services.android.widget" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>STH</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_STH_PP_0006</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+            <Packages>
+                <package name="com.starhub.itv" />
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.ministryofhomeaffairs.sgsecure.mhasg" />
+                <package name="com.starhub.csselfhelp" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>THL</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_THL_PP_0005</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.samsung.playback" />
+                <package name="com.samsung.privilege" />
+                <package name="com.samsung.th.galaxyappcenter" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>THR</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_THR_PP_0004</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+            <Packages>
+                <package name="net.jhoobin.jcalendar" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>TMC</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_TMC_PP_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>TPA</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_TPA_PP_0025</Version>
+            <CustomerEdition>ED0013</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>TPH</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_TPH_PP_0007</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+            <Packages>
+                <package name="pt.sibs.android.mbway" />
+                <package name="pt.publico.android" />
+                <package name="pt.abola.android.stdviewer" />
+                <package name="pt.impresa.android.reader.expresso" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>TTT</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_TTT_PP_0013</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>TUN</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_TUN_PP_0003</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>TUR</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_TUR_PP_0007</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+            <Packages>
+                <package name="com.setk.widget" />
+                <package name="com.galaxyfirsatlari" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>WTL</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_WTL_PP_0003</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.sam.apps.magazines.widget" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XEF</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_XEF_PP_0017</Version>
+            <CustomerEdition>ED0008</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XEH</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_XEH_PP_0010</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+            <Packages>
+                <package name="hu.marquardmedia.m_app" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XEO</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_XEO_PP_0005</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XEU</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_XEU_PP_0021</Version>
+            <CustomerEdition>ED0010</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XFA</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_XFA_PP_0018</Version>
+            <CustomerEdition>ED0011</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XFE</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_XFE_PP_0005</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XME</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_XME_PP_0009</Version>
+            <CustomerEdition>ED0007</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XSG</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_XSG_PP_0016</Version>
+            <CustomerEdition>ED0014</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XSP</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_XSP_PP_0007</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.ministryofhomeaffairs.sgsecure.mhasg" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XTC</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_XTC_PP_0009</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.srph.emergency321" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XXV</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_XXV_PP_0011</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+                <package name="com.samsungvietnam.quatanggalaxy" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ZTO</CustomerCode>
+            <Version>SAOMC_SM-N950F_OXM_ZTO_PP_0033</Version>
+            <CustomerEdition>ED0015</CustomerEdition>
+            <Packages>
+                <package name="com.rsupport.rs.activity.rsupport.aas2" />
+            </Packages>
+        </OmcCode>
+    </OmcInfo>
+</SW-Configuration>

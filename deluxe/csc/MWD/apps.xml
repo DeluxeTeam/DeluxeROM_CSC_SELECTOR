@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>com.samsung.galaxy.catalog</package>
+    <mandatory>false</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>MySamsung</appName>
+  </appInfo>
+</appList>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>ru.samsung.catalog</package>
+    <mandatory>false</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Магазин Samsung</appName>
+  </appInfo>
+</appList>

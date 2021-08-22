@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-N950F_OXM_ECT_PP_0002</version>
+  <model>
+    <name>SM-N950F</name>
+  </model>
+  <common>
+    <charging>Charge</charging>
+    <networkBearer>All</networkBearer>
+    <optionalApp>checked</optionalApp>
+  </common>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <others>no</others>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <language>no</language>
+    <apps>no</apps>
+    <resources>no</resources>
+    <defaultWorkspace>yes</defaultWorkspace>
+    <defaultApplicationOrder>yes</defaultApplicationOrder>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>7</carrierCount>
+    <carrier>
+      <mcc>618</mcc>
+      <mnc>01</mnc>
+      <networkName>MtnLonestarcell</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>20</mnc>
+      <networkName>Zain Nigeria</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>27</mnc>
+      <networkName>Smile NG</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>30</mnc>
+      <networkName>MTN Nigeria</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>40</mnc>
+      <networkName>ntel Nigeria</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>50</mnc>
+      <networkName>Glo Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>60</mnc>
+      <networkName>9mobile</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

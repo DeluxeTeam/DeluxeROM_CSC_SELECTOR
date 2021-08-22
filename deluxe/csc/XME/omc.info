@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-N950F_OXM_XME_PP_0009</version>
+  <model>
+    <name>SM-N950F</name>
+  </model>
+  <common>
+    <charging>Charge</charging>
+    <networkBearer>All</networkBearer>
+    <optionalApp>checked</optionalApp>
+  </common>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0007</customerEdition>
+    <others>no</others>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <language>yes</language>
+    <apps>no</apps>
+    <resources>no</resources>
+    <defaultWorkspace>yes</defaultWorkspace>
+    <defaultApplicationOrder>yes</defaultApplicationOrder>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>12</mnc>
+      <networkName>MAXIS</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>152</mnc>
+      <networkName>Yes 4G</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>153</mnc>
+      <networkName>Unifi</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>16</mnc>
+      <networkName>DIGI</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>18</mnc>
+      <networkName>U MOBILE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>19</mnc>
+      <networkName>CELCOM</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

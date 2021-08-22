@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>com.starhub.itv</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>StarHub Go</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.rsupport.rs.activity.rsupport.aas2</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Smart Tutor</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.ministryofhomeaffairs.sgsecure.mhasg</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>SGSecure</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.starhub.csselfhelp</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>My StarHub</appName>
+  </appInfo>
+</appList>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>net.jhoobin.jcalendar</package>
+    <mandatory>false</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>گاهشمار خورشیدی</appName>
+  </appInfo>
+</appList>

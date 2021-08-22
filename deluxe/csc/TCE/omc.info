@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-N950F_OWA_TCE_0054</version>
+  <model>
+    <name>SM-N950F</name>
+  </model>
+  <common>
+    <charging>Free</charging>
+    <networkBearer>All</networkBearer>
+    <optionalApp>checked</optionalApp>
+  </common>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0012</customerEdition>
+    <others>no</others>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <language>yes</language>
+    <apps>yes</apps>
+    <resources>no</resources>
+    <defaultWorkspace>yes</defaultWorkspace>
+    <defaultApplicationOrder>yes</defaultApplicationOrder>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>1</carrierCount>
+    <carrier>
+      <mcc>334</mcc>
+      <mnc>020</mnc>
+      <networkName>TELCEL</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

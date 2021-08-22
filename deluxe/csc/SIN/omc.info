@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-N950F_OXM_SIN_PP_0007</version>
+  <model>
+    <name>SM-N950F</name>
+  </model>
+  <common>
+    <charging>Charge</charging>
+    <networkBearer>All</networkBearer>
+    <optionalApp>checked</optionalApp>
+  </common>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <others>no</others>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <language>no</language>
+    <apps>yes</apps>
+    <resources>no</resources>
+    <defaultWorkspace>yes</defaultWorkspace>
+    <defaultApplicationOrder>yes</defaultApplicationOrder>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>9</carrierCount>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>01</mnc>
+      <networkName>Singtel (Prepaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>01</mnc>
+      <networkName>Singtel (Postpaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>02</mnc>
+      <networkName>Singtel (Postpaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>02</mnc>
+      <networkName>Singtel (Prepaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>03</mnc>
+      <networkName>SGP-M1</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>05</mnc>
+      <spn>StarHub</spn>
+      <networkName>StarHub (Postpaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>05</mnc>
+      <spn>StarHub</spn>
+      <networkName>StarHub (Prepaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>528</mcc>
+      <mnc>02</mnc>
+      <spn>PCSB</spn>
+      <networkName>PCSB</networkName>
+    </carrier>
+    <carrier>
+      <mcc>528</mcc>
+      <mnc>11</mnc>
+      <spn>DSTCom</spn>
+      <networkName>DSTCom</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

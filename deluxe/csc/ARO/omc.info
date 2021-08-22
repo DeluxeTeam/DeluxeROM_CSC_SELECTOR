@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-N950F_OXM_ARO_PP_0032</version>
+  <model>
+    <name>SM-N950F</name>
+  </model>
+  <common>
+    <charging>Charge</charging>
+    <networkBearer>All</networkBearer>
+    <optionalApp>checked</optionalApp>
+  </common>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0014</customerEdition>
+    <others>no</others>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <language>yes</language>
+    <apps>no</apps>
+    <resources>no</resources>
+    <defaultWorkspace>yes</defaultWorkspace>
+    <defaultApplicationOrder>yes</defaultApplicationOrder>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>07</mnc>
+      <networkName>Movistar AR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>070</mnc>
+      <networkName>Movistar AR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>31</mnc>
+      <networkName>Claro AR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>310</mnc>
+      <networkName>Claro AR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>34</mnc>
+      <networkName>Personal AR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>722</mcc>
+      <mnc>341</mnc>
+      <networkName>Personal AR</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

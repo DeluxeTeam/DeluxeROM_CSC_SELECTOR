@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<!--
+Copyright (C) 2016 The Android Open Source Project
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+
+    <home>
+        <!-- appwidget : 날씨 -->
+        <appwidget 
+            screen="0" 
+            packageName="com.sec.android.daemonapp" 
+            className="com.sec.android.daemonapp.appwidget.WeatherAppWidget2x1" 
+            x="1" 
+            y="0" 
+            spanX="3" 
+            spanY="3" />
+
+        <!-- appwidget : Google 앱 -->
+        <appwidget 
+            screen="0" 
+            packageName="com.google.android.googlequicksearchbox" 
+            className="com.google.android.googlequicksearchbox.SearchWidgetProvider" 
+            x="0" 
+            y="4" 
+            spanX="5" 
+            spanY="1" />
+
+        <!-- appwidget : T멤버쉽 -->
+        <appwidget 
+            screen="1" 
+            packageName="com.tms" 
+            className="com.tms.widget.PocAppWidgetProvider_5x3" 
+            x="0" 
+            y="0" 
+            spanX="5" 
+            spanY="3" />
+
+        <!-- T 멤버십 -->
+        <favorite 
+            screen="1" 
+            packageName="com.tms" 
+            className="com.tms.activity.HomeActivity" 
+            x="0" 
+            y="4" />
+
+        <!-- 모바일 T world -->
+        <favorite 
+            screen="1" 
+            packageName="Com.sktelecom.minit" 
+            className="Com.sktelecom.minit.IntroActivity" 
+            x="1" 
+            y="4" />
+
+        <!-- T map -->
+        <favorite 
+            screen="1" 
+            packageName="com.skt.skaf.l001mtm091" 
+            className="com.skt.tmap.activity.TmapIntroActivity" 
+            x="2" 
+            y="4" />
+
+        <!-- ONE store -->
+        <favorite 
+            screen="1" 
+            packageName="com.skt.skaf.A000Z00040" 
+            className="com.skt.skaf.A000Z00040.A000Z00040" 
+            x="3" 
+            y="4" />
+
+        <!-- folder : SK텔레콤 -->
+        <folder 
+            screen="1" 
+            title="SK텔레콤" 
+            x="4" 
+            y="4">
+            <!-- T라이프 -->
+            <favorite 
+                screen="0" 
+                packageName="com.skt.tlife" 
+                className="com.skt.tlife.MainActivity" />
+            <!-- oksusu -->
+            <favorite 
+                screen="1" 
+                packageName="com.skb.btvmobile" 
+                className="com.skb.btvmobile.activity.MTVIntroActivity" />
+            <!-- Syrup 월렛 -->
+            <favorite 
+                screen="2" 
+                packageName="com.skt.skaf.OA00026910" 
+                className="com.skt.skaf.OA00026910.SmartWalletMain2" />
+            <!-- 11번가 -->
+            <favorite 
+                screen="3" 
+                packageName="com.elevenst" 
+                className="com.elevenst.intro.Intro" />
+            <!-- OK Cashbag -->
+            <favorite 
+                screen="4" 
+                packageName="com.skmc.okcashbag.home_google" 
+                className="com.skmc.okcashbag.home_google.activities.Entrypoint" />
+            <!-- 클라우드베리 -->
+            <favorite 
+                screen="5" 
+                packageName="com.skt.prod.cloud" 
+                className="com.skt.prod.cloud.activities.main.SplashActivity" />
+            <!-- 네이트 -->
+            <favorite 
+                screen="6" 
+                packageName="com.nate.android.portalmini" 
+                className="com.nate.android.portalmini.LauncherCheckActivity" />
+            <!-- T guard -->
+            <favorite 
+                screen="7" 
+                packageName="com.sktelecom.tguard" 
+                className="com.sktelecom.tguard.v2.activity.SplashActivity" />
+        </folder>
+
+    </home>
+
+
+    <hotseat>
+        <!-- 연락처 -->
+        <favorite 
+            screen="0" 
+            packageName="com.samsung.android.contacts" 
+            className="com.android.dialer.DialtactsActivity" />
+
+        <!-- 메시지 -->
+        <favorite 
+            screen="1" 
+            packageName="com.samsung.android.messaging" 
+            className="com.android.mms.ui.ConversationComposer" />
+
+        <!-- 삼성 인터넷 -->
+        <favorite 
+            screen="2" 
+            packageName="com.sec.android.app.sbrowser" 
+            className="com.sec.android.app.sbrowser.SBrowserMainActivity" />
+
+        <!-- Google Play 스토어 -->
+        <favorite 
+            screen="3" 
+            packageName="com.android.vending" 
+            className="com.android.vending.AssetBrowserActivity" />
+
+        <!-- 카메라 -->
+        <favorite 
+            screen="4" 
+            packageName="com.sec.android.app.camera" 
+            className="com.sec.android.app.camera.Camera" />
+
+    </hotseat>
+
+</favorites>

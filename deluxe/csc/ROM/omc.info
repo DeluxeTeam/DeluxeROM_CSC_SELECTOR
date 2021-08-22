@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-N950F_OXM_ROM_PP_0012</version>
+  <model>
+    <name>SM-N950F</name>
+  </model>
+  <common>
+    <charging>Charge</charging>
+    <networkBearer>All</networkBearer>
+    <optionalApp>checked</optionalApp>
+  </common>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0005</customerEdition>
+    <others>no</others>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <language>no</language>
+    <apps>no</apps>
+    <resources>no</resources>
+    <defaultWorkspace>yes</defaultWorkspace>
+    <defaultApplicationOrder>yes</defaultApplicationOrder>
+    <imsupdate>yes</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>5</carrierCount>
+    <carrier>
+      <mcc>226</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodafone RO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>226</mcc>
+      <mnc>03</mnc>
+      <networkName>COSMOTE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>226</mcc>
+      <mnc>05</mnc>
+      <networkName>Digi.Mobil</networkName>
+    </carrier>
+    <carrier>
+      <mcc>226</mcc>
+      <mnc>06</mnc>
+      <networkName>COSMOTE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>226</mcc>
+      <mnc>10</mnc>
+      <spn>orange</spn>
+      <networkName>RO Orange</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

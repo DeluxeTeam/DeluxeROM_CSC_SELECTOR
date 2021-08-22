@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>com.setappbox.singularity.ziptv</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>ZipTV</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.bzbs.samsung.af</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Galaxy Gift App</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.promolante.app</package>
+    <mandatory>false</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Promolante</appName>
+  </appInfo>
+</appList>

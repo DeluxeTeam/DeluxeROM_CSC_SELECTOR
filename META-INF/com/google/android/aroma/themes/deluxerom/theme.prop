@@ -1,0 +1,67 @@
+img.background=bg
+img.titlebar=titlebar
+img.navbar=navbar
+img.dialog=dialog.9
+img.dialog.titlebar=dialog_titlebar.9
+img.progress=button.9
+img.prograss.fill=button_press.9
+img.selection=list.9
+img.selection.push=list.9
+img.button=button.9
+img.button.focus=button_focus.9
+img.button.push=button_press.9
+img.checkbox=cb
+img.checkbox.focus=cb_focus
+img.checkbox.push=cb_press
+img.checkbox.on=cb_on
+img.checkbox.on.focus=cb_on_focus
+img.checkbox.on.push=cb_on_press
+img.radio=radio
+img.radio.focus=radio_focus
+img.radio.push=radio_press
+img.radio.on=radio_on
+img.radio.on.focus=radio_on_focus
+img.radio.on.push=radio_on_press
+
+
+color.winbg           = #ffffff
+color.winbg_g         = #74a7e8
+color.winfg           = #ffffff
+color.selectbg        = #00f8fb
+color.selectbg_g      = #74a7e8
+color.selectfg        = #ffffff
+color.winfg_gray      = #666666
+color.dialogbg        = #00f8fb
+color.dialogbg_g      = #444444
+color.dialogfg        = #ffffff
+color.textbg          = #000000
+color.textfg          = #ffffff
+color.textfg_gray     = #aaaaaa
+color.controlbg       = #999999
+color.controlbg_g     = #999999
+color.controlfg       = #ffffff
+color.titlebg         = #74a7e8
+color.titlebg_g       = #000000
+color.titlefg         = #ffffff
+color.dlgtitlebg      = #ffffff
+color.dlgtitlebg_g    = #74a7e8
+color.dlgtitlefg      = #ffffff
+color.scrollbar       = #cccccc
+color.navbg           = #000000
+color.navbg_g         = #000000
+color.border          = #666666
+color.border_g        = #666666
+color.progressglow    = #74a7e8
+
+config.roundsize             = 1
+config.button_roundsize      = 1
+config.window_roundsize      = 1
+config.transition_frame      = 5
+
+font.small                   = font.roboto.small
+font.big                     = font.roboto.big
+
+
+info.themename        = DeluxeRom
+info.description      = DeluxeRom Theme For Aroma Installer
+info.author           = ARaul

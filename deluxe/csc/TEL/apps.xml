@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>com.telstra.mobile.android.mytelstra</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Telstra 24x7</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.telstra.mobile.android.air</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Telstra Air</appName>
+  </appInfo>
+</appList>

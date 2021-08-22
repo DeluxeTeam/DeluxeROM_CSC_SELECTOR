@@ -1,0 +1,45 @@
+{
+  "update_version":1,
+  "min_swver":"",
+  "note":"Enable only VoWiFi for ZTA in ZTO",
+  "imsprofile_update":{
+    "profile":[
+      {
+        "name": "ZTA IMS VoLTE",
+        "mnoname": "Claro_BR",
+        "network":[
+          {
+            "type": "wifi",
+            "services": [
+              "mmtel",
+              "smsip"
+            ],
+            "enabled": true
+          }
+        ]
+      }
+    ],
+    "remove_profile":[
+
+    ]
+  },
+  "globalsettings_update":{
+    "defaultsetting":{
+
+    },
+    "nohitsetting":{
+
+    },
+    "globalsetting":[
+
+    ]
+  },
+  "mnomap_update":{
+    "remove_mnomap":[
+
+    ],
+    "add_mnomap":[
+
+    ]
+  }
+}

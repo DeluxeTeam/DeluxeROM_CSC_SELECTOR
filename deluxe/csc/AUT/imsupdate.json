@@ -1,0 +1,17 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "Enable EVS for Salt Switzerland",
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "Orange Switzerland Salt for IMS PDN",
+        "mnoname": "Orange_CH",
+        "enable_evs_codec": true,
+        "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+        "evs_bit_rate_send": "5.9-24.4",
+        "evs_bit_rate_receive": "5.9-24.4"
+      }
+    ]
+  }
+}

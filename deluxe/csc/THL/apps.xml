@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>com.rsupport.rs.activity.rsupport.aas2</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Smart Tutor</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.samsung.playback</package>
+    <mandatory>false</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Samsung Playback</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.samsung.privilege</package>
+    <mandatory>false</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Galaxy Gift</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.samsung.th.galaxyappcenter</package>
+    <mandatory>false</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Galaxy Rewards</appName>
+  </appInfo>
+</appList>

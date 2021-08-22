@@ -1,0 +1,30 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeature>
+  <Version>ED00001</Version>
+  <Country>BOSNIA-HERZEGOVINA</Country>
+  <CountryISO>BA</CountryISO>
+  <SalesCode>TEB</SalesCode>
+  <FeatureSet>
+    <CscFeature_Common_AutoConfigurationType>NO_DFLT_CSC, SIMBASED_OMC</CscFeature_Common_AutoConfigurationType>
+    <CscFeature_Common_EulaVersion>2</CscFeature_Common_EulaVersion>
+    <CscFeature_Message_ConfigFreeMessage>off</CscFeature_Message_ConfigFreeMessage>
+    <CscFeature_Setting_IncludeApn4SwUpdate>TRUE</CscFeature_Setting_IncludeApn4SwUpdate>
+    <CscFeature_Vision_ConfigImageSearch>PTRXX</CscFeature_Vision_ConfigImageSearch>
+    <CscFeature_Vision_ConfigPlace>FSRXX</CscFeature_Vision_ConfigPlace>
+    <CscFeature_Vision_ConfigShopping>NLLXX</CscFeature_Vision_ConfigShopping>
+    <CscFeature_Vision_ConfigTextTranslator>GGLXX</CscFeature_Vision_ConfigTextTranslator>
+    <CscFeature_Vision_ConfigWine>VVNXX</CscFeature_Vision_ConfigWine>
+    <CscFeature_Weather_ConfigCpType>TWC</CscFeature_Weather_ConfigCpType>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_Wifi_SupportEapFastReauth>TRUE</CscFeature_Wifi_SupportEapFastReauth>
+  <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>
+<CscFeature_SmartManager_ConfigSubFeatures>trafficmanager_auto|fake_base_station|rootbadgefeature|badappnoti|trafficmanager|applock</CscFeature_SmartManager_ConfigSubFeatures>
+<CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>
+<CscFeature_SystemUI_SupportRecentAppProtection>TRUE</CscFeature_SystemUI_SupportRecentAppProtection>
+    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|storageclean|backgroundapp|applock|notificationmanager|trafficmanager|trafficmanager_auto|data_compression|cstyle|autolaunch|appclean|fake_base_station|UDS2|devicesecurity|badappnoti</CscFeature_SmartManager_ConfigSubFeatures>
+	<CscFeature_SmartManager_ConfigDashboard>dual_dashboard</CscFeature_SmartManager_ConfigDashboard>
+	<CscFeature_SmartManager_DisableAntiMalware></CscFeature_SmartManager_DisableAntiMalware>
+	<CscFeature_Common_ConfigLocalSecurityPolicy>ChinaNalSecurity</CscFeature_Common_ConfigLocalSecurityPolicy>
+
+</FeatureSet>
+</SamsungMobileFeature>

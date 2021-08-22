@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<!--
+Copyright (C) 2016 The Android Open Source Project
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+
+    <home>
+        <!--  screen [0]  -->
+        <!-- appwidget : Weather -->
+        <appwidget
+            launcher:screen="0" 
+            launcher:packageName="com.sec.android.daemonapp" 
+            launcher:className="com.sec.android.daemonapp.appwidget.WeatherAppWidget2x1" 
+            launcher:x="1" 
+            launcher:y="0" 
+            launcher:spanX="3" 
+            launcher:spanY="3" />
+
+        <!-- appwidget : Google app -->
+        <appwidget
+            launcher:screen="0" 
+            launcher:packageName="com.google.android.googlequicksearchbox" 
+            launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider" 
+            launcher:x="0" 
+            launcher:y="4" 
+            launcher:spanX="5" 
+            launcher:spanY="1" />
+            
+        <!--  screen [1]  -->
+         <!-- ClaroJuegos Widget -->
+        <appwidget
+            launcher:packageName="com.gameloft.android.gdc"
+            launcher:className="com.gameloft.android.gdc.GDCWidgetProvider"
+            launcher:screen="1"
+            launcher:x="0"
+            launcher:y="0"
+            launcher:spanX="4"
+            launcher:spanY="4"
+            launcher:postPosition="true" />
+
+        <!--Claro video-->
+        <favorite
+            launcher:packageName="com.dla.android"
+            launcher:className="com.clarovideo.app.ui.activities.SplashActivity" 
+            launcher:screen="1"
+            launcher:x="0"
+            launcher:y="4"
+            launcher:postPosition="true"/>
+
+        <!--Claro musica-->
+        <favorite
+            launcher:packageName="com.claro.claromusica.latam"
+            launcher:className="com.claro.claromusica.latam.MainActivity" 
+            launcher:screen="1"
+            launcher:x="1"
+            launcher:y="4"
+            launcher:postPosition="true"/>
+
+        <!--Claro Apps -->
+        <favorite
+            launcher:packageName="com.naranya.claroapps"
+            launcher:className="com.naranya.claroapps.LaunchActivity"
+            launcher:screen="1"
+            launcher:x="2"
+            launcher:y="4"
+            launcher:postPosition="true"/>
+
+        <!-- Claro Juegos -->
+        <favorite
+            launcher:packageName="com.gameloft.android.gdc" 
+            launcher:className="com.gameloft.android.gdc.AYCELoadingActivity"
+            launcher:screen="1"
+            launcher:x="3"
+            launcher:y="4"
+            launcher:postPosition="true"/>
+
+        <folder
+            launcher:screen="1"
+            launcher:title="Juegos"
+            launcher:x="4"
+            launcher:y="4">
+
+            <!-- 5 Gameloft -->
+            <!-- Asphalt Nitro --> 
+            <favorite
+                launcher:screen="1" 
+                launcher:packageName="com.gameloft.android.GloftANPH" 
+                launcher:className="com.gameloft.android.GloftANPH.Start"
+                launcher:postPosition="true"/> 
+
+            <!-- Kingdoms --> 
+            <favorite
+                launcher:screen="2" 
+                launcher:packageName="com.gameloft.android.GloftDMKF" 
+                launcher:className="com.gameloft.android.GloftDMKF.Start"
+                launcher:postPosition="true"/> 
+
+            <!-- Dragon Mania --> 
+            <favorite
+                launcher:screen="3"
+                launcher:packageName="com.gameloft.android.LATAM.GloftPDMF" 
+                launcher:className="com.gameloft.android.LATAM.GloftPDMF.Start"
+                launcher:postPosition="true"/> 
+
+            <!--  Scrat-ventures --> 
+            <favorite
+                launcher:screen="4" 
+                launcher:packageName="com.gameloft.android.GloftSCRT" 
+                launcher:className="com.gameloft.android.GloftSCRT.Start"
+                launcher:postPosition="true"/> 
+
+            <!-- Spider-Man: Ultimate Power -->
+            <favorite
+                launcher:screen="5" 
+                launcher:packageName="com.gameloft.android.GloftSMIF" 
+                launcher:className="com.gameloft.android.GloftSMIF.Start"
+                launcher:postPosition="true"/> 
+
+            
+
+        </folder>
+
+    </home> 
+
+    <hotseat>
+        <!-- Contacts -->
+        <favorite
+            launcher:screen="0" 
+            launcher:packageName="com.samsung.android.contacts" 
+            launcher:className="com.android.dialer.DialtactsActivity" />
+
+        <!-- Messages -->
+        <favorite
+            launcher:screen="1" 
+            launcher:packageName="com.samsung.android.messaging" 
+            launcher:className="com.android.mms.ui.ConversationComposer" />
+
+        <!-- Internet -->
+        <favorite
+            launcher:screen="2" 
+            launcher:packageName="com.sec.android.app.sbrowser" 
+            launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" />
+
+        <!-- Google Play Store -->
+        <favorite
+            launcher:screen="3" 
+            launcher:packageName="com.android.vending" 
+            launcher:className="com.android.vending.AssetBrowserActivity" />
+
+        <!-- Contenedor -->
+        <favorite
+            launcher:screen="4" 
+            launcher:packageName="com.claroColombia.contenedor" 
+            launcher:className="com.claroColombia.contenedor.gui.activities.AppsContainerActivity" />
+
+    </hotseat> 
+
+</favorites>

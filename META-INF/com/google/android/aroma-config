@@ -1,0 +1,177 @@
+## DeluxeROM® @AbrahamGC / @a.raul
+
+##
+# ROM INFO
+#
+ini_set("rom_name", "DELUXE® CSC SELECTOR");
+ini_set("rom_version", "1");
+ini_set("rom_author", "@AbrahamGC / @A.Raul");
+ini_set("rom_device", "SM-[GN]95[05][FN]");
+ini_set("rom_date", "22/08/2021");
+
+
+##
+# SPLASHSCREEN
+#
+anisplash(
+    4,
+
+  #-- Frame 1 [ Image, duration in millisecond ]. <AROMA Resource Dir>/splash/a[1..30].png
+    "splash/01", 500,
+    "splash/02", 30,
+    "splash/03", 30,
+    "splash/04", 30,
+    "splash/05", 30,
+    "splash/06", 30,
+	"splash/07", 30,
+	"splash/08", 30,
+	"splash/09", 30,
+	"splash/10", 30,
+	"splash/11", 30,
+	"splash/12", 30,
+	"splash/13", 30,
+	"splash/14", 30,
+	"splash/15", 30,
+	"splash/16", 30,
+	"splash/17", 30
+);
+
+
+##
+# FONTS
+#
+fontresload( "0", "ttf/Roboto-Regular.ttf;ttf/DroidSansFallback.ttf;", "12" );
+fontresload( "1", "ttf/Roboto-Regular.ttf;ttf/DroidSansFallback.ttf;", "14" );
+
+
+##
+# THEME & LANGUAGE SELECTION
+#
+theme("deluxerom");
+loadlang("langs/en.lang");
+# include("language_select.edify");
+
+
+##
+# CSC SELECTION
+#
+form(
+	"CSC",
+	"<~csc.title>",
+	"@install",
+	"csc.prop",
+
+	"csc",	"<~csc.description>",	"",							"group",
+	"ACR", "", "ACR",	"select",
+	"AFG", "", "AFG",	"select",
+	"AFR", "", "AFR",	"select",
+	"ARO", "", "ARO",	"select",
+	"ATO", "", "ATO",	"select",
+	"AUT", "", "AUT",	"select",
+	"BGL", "", "BGL",	"select",
+	"BNG", "", "BNG",	"select",
+	"BRI", "", "BRI",	"select",
+	"BTC", "", "BTC",	"select",
+	"BTU", "", "BTU",	"select",
+	"CAC", "", "CAC",	"select",
+	"CAM", "", "CAM",	"select",
+	"CEL", "", "CEL",	"select",
+	"CHO", "", "CHO",	"select",
+	"COO", "", "COO",	"select",
+	"CPW", "", "CPW",	"select",
+	"DBT", "", "DBT",	"select",
+	"DKR", "", "DKR",	"select",
+	"ECT", "", "ECT",	"select",
+	"EGY", "", "EGY",	"select",
+	"EON", "", "EON",	"select",
+	"ETL", "", "ETL",	"select",
+	"EUR", "", "EUR",	"select",
+	"GLB", "", "GLB",	"select",
+	"ILO", "", "ILO",	"select",
+	"INS", "", "INS",	"select",
+	"ITV", "", "ITV",	"select",
+	"KSA", "", "KSA",	"select",
+	"KTC", "", "KTC",	"select",
+	"LAO", "", "LAO",	"select",
+	"LUC", "", "LUC",	"select",
+	"LUX", "", "LUX",	"select",
+	"LYS", "", "LYS",	"select",
+	"MAT", "", "MAT",	"select",
+	"MID", "", "MID",	"select",
+	"MM1", "", "MM1",	"select",
+	"MWD", "", "MWD",	"select",
+	"MYM", "", "MYM",	"select",
+	"NEE", "", "NEE",	"select",
+	"NPL", "", "NPL",	"select",
+	"NZC", "", "NZC",	"select",
+	"OPS", "", "OPS",	"select",
+	"ORX", "", "ORX",	"select",
+	"PAK", "", "PAK",	"select",
+	"PCL", "", "PCL",	"select",
+	"PET", "", "PET",	"select",
+	"PHE", "", "PHE",	"select.selected",
+	"PHN", "", "PHN",	"select",
+	"PTR", "", "PTR",	"select",
+	"ROM", "", "ROM",	"select",
+	"SEB", "", "SEB",	"select",
+	"SEE", "", "SEE",	"select",
+	"SEK", "", "SEK",	"select",
+	"SER", "", "SER",	"select",
+	"SIN", "", "SIN",	"select",
+	"SKC", "", "SKC",	"select",
+	"SKZ", "", "SKZ",	"select",
+	"SLK", "", "SLK",	"select",
+	"SMA", "", "SMA",	"select",
+	"SMP", "", "SMP",	"select",
+	"STH", "", "STH",	"select",
+	"TCE", "", "TCE",	"select",
+	"TEB", "", "TEB",	"select",
+	"TEL", "", "TEL",	"select",
+	"THL", "", "THL",	"select",
+	"THR", "", "THR",	"select",
+	"TMC", "", "TMC",	"select",
+	"TNZ", "", "TNZ",	"select",
+	"TPA", "", "TPA",	"select",
+	"TPH", "", "TPH",	"select",
+	"TTT", "", "TTT",	"select",
+	"TUN", "", "TUN",	"select",
+	"TUR", "", "TUR",	"select",
+	"VAU", "", "VAU",	"select",
+	"VNZ", "", "VNZ",	"select",
+	"WTL", "", "WTL",	"select",
+	"XEF", "", "XEF",	"select",
+	"XEH", "", "XEH",	"select",
+	"XEO", "", "XEO",	"select",
+	"XEU", "", "XEU",	"select",
+	"XFA", "", "XFA",	"select",
+	"XFE", "", "XFE",	"select",
+	"XME", "", "XME",	"select",
+	"XNX", "", "XNX",	"select",
+	"XSA", "", "XSA",	"select",
+	"XSG", "", "XSG",	"select",
+	"XSP", "", "XSP",	"select",
+	"XTC", "", "XTC",	"select",
+	"XXV", "", "XXV",	"select",
+	"ZTO", "", "ZTO",	"select"
+);
+
+
+setvar("retstatus",
+	install(
+	#-- Title
+		"<~pleasewait>",
+
+	#-- Installation Process message
+		"<b>"+ini_get("rom_name")+"</b>\n\n"+
+		"<~pleasewaitlong>",
+
+	#-- Installation Icon
+		"@install",
+
+	#-- Installation Finish Message
+		"The process has successfully ended.
+		Press Next to continue."
+	)
+);
+ini_set("text_next", "Finish");
+reboot("now");

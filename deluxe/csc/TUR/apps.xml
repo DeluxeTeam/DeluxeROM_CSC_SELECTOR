@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>com.setk.widget</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Bizz</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.galaxyfirsatlari</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Galaxy Fırsatları</appName>
+  </appInfo>
+</appList>

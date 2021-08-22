@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>sg.gov.mnd.OneService</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>OneService</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.rsupport.rs.activity.rsupport.aas2</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Smart Tutor</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.ministryofhomeaffairs.sgsecure.mhasg</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>SGSecure</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.m1.mym1</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>My M1</appName>
+  </appInfo>
+  <appInfo>
+    <package>deezer.android.app</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Deezer: Music &amp; Song Streaming</appName>
+  </appInfo>
+</appList>

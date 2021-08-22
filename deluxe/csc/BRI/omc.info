@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-N950F_OXM_BRI_PP_0007</version>
+  <model>
+    <name>SM-N950F</name>
+  </model>
+  <common>
+    <charging>Charge</charging>
+    <networkBearer>All</networkBearer>
+    <optionalApp>checked</optionalApp>
+  </common>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0004</customerEdition>
+    <others>no</others>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <language>no</language>
+    <apps>yes</apps>
+    <resources>no</resources>
+    <defaultWorkspace>yes</defaultWorkspace>
+    <defaultApplicationOrder>yes</defaultApplicationOrder>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>11</carrierCount>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>01</mnc>
+      <networkName>FarEasTone</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>03</mnc>
+      <networkName>FarEasTone</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>05</mnc>
+      <networkName>GT 4G</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>11</mnc>
+      <networkName>Chunghwa</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>88</mnc>
+      <networkName>FarEasTone</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>89</mnc>
+      <networkName>T Star</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>92</mnc>
+      <networkName>Chunghwa</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>93</mnc>
+      <networkName>TW Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>97</mnc>
+      <networkName>TW Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>99</mnc>
+      <networkName>TW Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>05</mnc>
+      <codeType>HEX</codeType>
+      <gid>0A</gid>
+      <networkName>GT 4G Roaming</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

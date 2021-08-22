@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<!--
+Copyright (C) 2016 The Android Open Source Project
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+
+    <home>
+        <!-- appwidget : 날씨 -->
+        <appwidget 
+            screen="0" 
+            packageName="com.sec.android.daemonapp" 
+            className="com.sec.android.daemonapp.appwidget.WeatherAppWidget2x1" 
+            x="1" 
+            y="0" 
+            spanX="3" 
+            spanY="3" />
+
+        <!-- appwidget : Google 앱 -->
+        <appwidget 
+            screen="0" 
+            packageName="com.google.android.googlequicksearchbox" 
+            className="com.google.android.googlequicksearchbox.SearchWidgetProvider" 
+            x="0" 
+            y="4" 
+            spanX="5" 
+            spanY="1" />
+
+        <!-- appwidget : U+Page -->
+        <appwidget 
+            screen="1" 
+            packageName="com.lgu.app.appbundle" 
+            className="com.lgu.app.appbundle.WidgetProvider_5x3" 
+            x="0" 
+            y="0" 
+            spanX="5" 
+            spanY="3" />
+
+        <!-- folder : LGU+ -->
+        <folder 
+            screen="1" 
+            title="LG U+" 
+            x="0" 
+            y="4">
+            <!-- U+프로야구 -->
+            <favorite 
+                screen="0" 
+                packageName="com.uplus.baseballhdtv" 
+                className="com.uplus.baseballhdtv.MainActivity" />
+            <!-- U+Box -->
+            <favorite 
+                screen="1" 
+                packageName="lg.uplusbox" 
+                className="lg.uplusbox.TitleActivity" />
+            <!-- Paynow -->
+            <favorite 
+                screen="2" 
+                packageName="com.lguplus.paynow" 
+                className="com.lguplus.paynow.MainActivity" />
+            <!-- 스마트 월렛 -->
+            <favorite 
+                screen="3" 
+                packageName="com.lguplus.usimsvcm" 
+                className="com.lguplus.usimsvcm.ui.RootActivity" />
+            <!-- U+내비 -->
+            <favorite 
+                screen="4" 
+                packageName="com.lguplus.navi" 
+                className="kt.navi.UIActivity" />
+            <!-- IoT@home -->
+            <favorite 
+                screen="5" 
+                packageName="com.lguplus.homeiot" 
+                className="com.lguplus.homeiot.ui.intro.IntroSplash" />
+            <!-- U+tv 직캠 -->
+            <favorite 
+                screen="6" 
+                packageName="com.lguplus.ltealive" 
+                className="com.lguplus.ltealive.RootActivity" />
+            <!-- U+Page -->
+            <favorite 
+                screen="7" 
+                packageName="com.lgu.app.appbundle" 
+                className="com.lgu.app.appbundle.LoadingPage" />
+            <!-- 통화도우미 -->
+            <favorite 
+                screen="8" 
+                packageName="lgt.call" 
+                className="lgt.call.Main" />
+            <!-- 뮤직벨링 -->
+            <favorite 
+                screen="9" 
+                packageName="com.lgu" 
+                className="com.lgu.page.LoadingPage" />
+            <!-- 지니 뮤직 -->
+            <favorite 
+                screen="10" 
+                packageName="com.ktmusic.geniemusic" 
+                className="com.ktmusic.geniemusic.DummyActivity" />
+            <!-- 알약 -->
+            <favorite 
+                screen="11" 
+                packageName="com.estsoft.alyac" 
+                className="com.estsoft.alyac.ui.AYLauncherActivity" />
+        </folder>
+
+        <!-- 비디오포털 -->
+        <favorite 
+            screen="1" 
+            packageName="com.uplus.onphone" 
+            className="com.uplus.onphone.page.LoadingPage" 
+            x="1" 
+            y="4" />
+
+        <!-- ONE store -->
+        <favorite 
+            screen="1" 
+            packageName="com.lguplus.appstore" 
+            className="com.lguplus.appstore.StoreMain" 
+            x="2" 
+            y="4" />
+
+        <!-- U+ 고객센터 -->
+        <favorite 
+            screen="1" 
+            packageName="com.lguplus.mobile.cs" 
+            className="com.lguplus.mobile.cs.activity.MainActivity" 
+            x="3" 
+            y="4" />
+
+        <!-- U+앱 추가설치 -->
+        <favorite
+            screen="1" 
+            packageName="com.samsung.preloadapp" 
+            className="com.samsung.preloadapp.CarrierPreloadAppLGT"
+            x="4" 
+            y="4" />
+
+    </home>
+
+
+    <hotseat>
+        <!-- 연락처 -->
+        <favorite 
+            screen="0" 
+            packageName="com.samsung.android.contacts" 
+            className="com.android.dialer.DialtactsActivity" />
+
+        <!-- 메시지 -->
+        <favorite 
+            screen="1" 
+            packageName="com.samsung.android.messaging" 
+            className="com.android.mms.ui.ConversationComposer" />
+
+        <!-- 삼성 인터넷 -->
+        <favorite 
+            screen="2" 
+            packageName="com.sec.android.app.sbrowser" 
+            className="com.sec.android.app.sbrowser.SBrowserMainActivity" />
+
+        <!-- Google Play 스토어 -->
+        <favorite 
+            screen="3" 
+            packageName="com.android.vending" 
+            className="com.android.vending.AssetBrowserActivity" />
+
+        <!-- 카메라 -->
+        <favorite 
+            screen="4" 
+            packageName="com.sec.android.app.camera" 
+            className="com.sec.android.app.camera.Camera" />
+
+    </hotseat>
+
+</favorites>

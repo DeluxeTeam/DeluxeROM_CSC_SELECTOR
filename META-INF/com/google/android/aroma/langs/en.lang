@@ -1,0 +1,201 @@
+﻿### LICENSE:
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+### LANGUAGE STRING RESOURCE FILE
+#
+#   Language  : English
+#   By        : amarullz
+#
+
+#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Next
+text_back=Back
+text_yes=Yes
+text_no=No
+text_about=About
+text_calibrating=Calibrating Tools
+text_quit=Quit Installation
+text_quit_msg=Are you sure to quit the installer?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=for
+
+themes.title=Selecciona un Tema
+themes.desc=Por favor, selecciona el tema gráfico que quieres usar en esta prueba de instalación:
+
+welcome.title=Welcome
+welcome.text1=You're going to install
+welcome.text2=AROMA Installer fue el primer y el único instalador del mundo táctil y personalizable para ROMs Android.
+welcome.version=VERSION
+welcome.codename=NAME
+welcome.updated=DATE
+welcome.next=Press "Next" for install the ROM...
+
+terms.title=Terms and conditions
+terms.desc=Pleas read carefully
+terms.check=I agree terms and conditions...
+terms.confirm=Please, check the conditions...
+
+changelog.title=Changelog
+changelog.desc=Changes with DeluxeROM_v30
+
+csc.title=Select your CSC
+csc.description=CSCs availables :
+
+root.description=Choose root method
+root.available=Root methods :
+root.without=Don't install root.
+root.withsu=Root with SuperSU v82
+root.magisk=Root with Magisk v22
+
+installing_magisk=Installing Magisk v22
+
+bixby.title=Bixby
+common.selectone=Select one option :
+bixby.install=Add Bixby apps
+bixby.remove=Delete Bixby apps
+
+common.select_to_install=Select which apps will be instaled
+
+setup.title=Initial setup
+setup.description=Skip or not initial setup
+setup.keep=Keep initial setup
+setup.skip=Skip initial setup
+
+spen.choose=Choose stock/star-wars sounds for S-Pen
+spen.usestock=Using stock S-PEN sounds
+spen.usestarwars=Using Star-Wars S-PEN sounds
+
+navbar.title=Navigation bar
+navbar.description=Enable / disable
+navbar.add=Add navigation bar
+navbar.rm=Delete navigation bar
+
+rom_version=v26
+rom_name=DeluxeROM®_v28
+rom_date=07/11/2020
+authors=AbrahamGC & A.Raul
+
+preparing_partitions=Preparing partitions...
+mounting_system=System
+mounting_data=Data
+
+cleaning_directories=Cleaning
+
+extracting_system=Extracting
+
+extracting_omc=OMC
+
+extracting_deluxe_notifications=Extracting notifications...
+
+extracting_bootanimation=Bootanimations
+
+extracting_bootanimation=Bootanimations
+bootanimation.title=Bootanimation/Dual
+bootanimation.description=Stock/Deluxe/AC-DC
+bootanimation.deluxe=Deluxe
+bootanimation.deluxe2=Deluxe 2
+bootanimation.deluxe3=Deluxe 3
+bootanimation.deluxe4=Deluxe 4
+bootanimation.acdc=AC/DC
+bootanimation.stock=Stock
+
+google_apps=Google apps
+
+samsung_apps=Samsung apps
+
+general_apps=General apps
+
+installing_kernel=Installing kernel
+
+rom_installed=ROM instaled!
+
+speaker.title=Sound mods
+speaker.description=Choose stock/dual
+speaker.add=Install Dual Speaker
+speaker.rm=Keep stock sound
+
+select_to_install=Select apps to install
+
+pleasewait=Please wait
+
+pleasewaitlong=This process may take long time...
+
+
+modem.description=Select firmware upgrade or not (If not sure, keep it)
+modem.keep=Keep current
+modem.keepdesc=Don't upgrade firmware files
+modem.install=Install Pie firmware
+modem.installdesc=Upgrade modem/bootloader to Pie.
+
+
+manager.title=SmartManager
+manager.install=Install chinese version
+manager.remove=Install stock version
+
+
+applock.install=Install AppLock
+applock.remove=Don't install AppLock
+
+
+edge.title=EDGE features
+edge.install=Install EDGE support
+edge.remove=Don't use EDGE
+
+dex.title=Samsung DEX
+dex.install=Add DEX apps
+dex.remove=Remove DEX
+
+
+dualsb.title=Dual statusbar
+dualsb.description=Duplicate statusbar size to add more items
+dualsb.dual=Use dual statusbar
+dualsb.single=Use single statusbar
+
+
+auto_installer.title=Auto installer
+auto_installer.description=Choose if use last configuration or new configuration. Using last configuration will ONLY work if DeluxeInstaller.prop is already generated on internal or external memory. That file is generated once the ROM is flashed. So, if is the first time you see this screen, means the file is not generated, in that case choose "New configuration", and on next installations, you will be able to use "Last configuration."
+auto_installer.options=Choose one option :
+auto_installer.new=Use new configuration
+auto_installer.existing=Use last configuration
+
+
+common.languages=Languages
+common.select_langs=Select languages to pre-install
+common.available_languages=Available languages :
+common.es_es=Spanish [ES]
+common.es_us=Spanish [US]
+common.en_gb=English [GB]
+common.en_us=English [US]
+common.de=German
+common.fr_fr=French [FR]
+common.it=Italian
+common.he=Hebrew
+common.da=Danish
+common.ur=Urdu
+
+twrp.title=TWRP/S-Pen/Sound
+twrp.update=Update to latest TWRP
+twrp.keep=Keep actual TWRP
+
+various.select_features=Select which features you want
+
+apps.title=User apps

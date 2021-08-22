@@ -1,0 +1,159 @@
+#!/sbin/sh
+#
+# DeluxeROM®
+# @AbrahamGC & @A.Raul
+#
+
+OUTFD=/proc/self/fd/$2;
+ZIPFILE="$3";
+
+print() { echo -e "ui_print $1\nui_print" >> $OUTFD; }
+
+extract() {
+  [ -f /tmp/7za ] || { unzip -o "$ZIPFILE" "deluxe/others/7za" -p > "/tmp/7za"; chmod 755 /tmp/7za; }
+  [ -f /tmp/7za ] || { busybox unzip "$ZIPFILE" "deluxe/others/7za" -p > "/tmp/7za"; chmod 755 /tmp/7za; }
+  case "$1" in
+    --file) mkdir -p "$(dirname "$4")"; /tmp/7za e -so "$2" "$3" | cat > "$4" ;;
+    --dir)
+      /tmp/7za x "$2" "$3" -o"$4/tmpdx" -y
+      mv -f "$4"/tmpdx/"$3"/* "$4"/ || cp -rf "$4"/tmpdx/"$3"/* "$4"/
+      rm -rf "$4/tmpdx"
+      ;;
+    --img) mkdir -p "$(dirname "$4")"; /tmp/7za e -so "$2" "$3" | cat > "$4" ;;
+    --img-tar) mkdir -p "$(dirname "$5")"; /tmp/7za e -so "$2" "$3" | tar -OJxf - "$4" | cat > "$5" ;;
+    --dir-tar) mkdir -p "$(dirname "$4")"; /tmp/7za e -so "$2" "$3" | tar -Jxf - -C "$4" ;;
+  esac
+}
+
+abort() { print "$*"; exit 0; }
+
+getbootloader() {
+  local value=""
+  value="$(test -e /sbin/getprop && /sbin/getprop ro.boot.bootloader)"
+  [ -z "$value" ] && value="$(cat /proc/cmdline | tr ' ' '\n' | grep "androidboot.bootloader=" | cut -d= -f2)"
+  [ -z "$value" ] && abort "##   CAN'T READ BOOTLOADER." || echo "$value"
+}
+
+file_getprop() { grep "^$2=" "$1" | cut -d= -f2-; }
+
+# Find real fd
+if readlink /proc/$$/fd/$2 2>/dev/null | grep /tmp >/dev/null; then
+  OUTFD=0
+  for FD in $( ls /proc/$$/fd ); do
+    if readlink /proc/$$/fd/$FD 2>/dev/null | grep pipe >/dev/null; then
+      if ps | grep " 3 $FD " | grep -v grep >/dev/null; then
+      	OUTFD=/proc/self/fd/$FD
+      	break
+      fi
+    fi
+  done
+fi
+
+# Show progressive bar
+echo "progress 1.34 -53000" >> $OUTFD
+
+# Banner
+print " "
+print " "
+print " "
+print "##"
+print "##   CSC SELECTOR v1.0 ..."
+print "##"
+
+# Check compatibility
+print "##"
+print "##   CHECKING COMPATIBILITY ..."
+print "##"
+getbootloader | grep -q '[GN]95[05][FN]' || abort "##   DEVICE NOT COMPATIBLE. NO FILE HAS BEEN CHANGED."
+
+# Prepare partitions
+print "##"
+print "##   PREPARING PARTITIONS ..."
+print "##"
+for i in data system; do umount /$i &>/dev/null; mount /$i &>/dev/null; done
+
+# Check it's running DeluxeROM
+file_getprop /system/build.prop ro.deluxerom.version | grep -q "DeluxeROM" || abort "##   DEVICE NOT COMPATIBLE. NO FILE HAS BEEN CHANGED."
+
+# Clean directories
+print "##"
+print "##   CLEANING DIRECTORIES ..."
+print "##"
+rm -rf /data/dalvik-cache /system/omc /system/csc
+
+# Extract CSC and add tweaks
+SELECTED_CSC=$(file_getprop "/tmp/aroma/csc.prop" "csc")
+print "##"
+print "##   EXTRACTING ${SELECTED_CSC} ..."
+print "##"
+mkdir -p /system/omc
+extract --dir-tar "$ZIPFILE" "deluxe/omc_base.tar.xz" /system/omc
+feature=/system/omc/$SELECTED_CSC/cscfeature.xml
+extract --dir "$ZIPFILE" deluxe/csc/${SELECTED_CSC} /system/omc/${SELECTED_CSC}
+wpcount=$(grep -o 'whitepages' $feature | wc -l)
+for line in CscFeature_SystemUI_ConfigDefQuickSettingItem \
+CscFeature_VoiceCall_ConfigRecording \
+CscFeature_Knox_SupportKnoxGuard \
+CscFeature_Common_SupportRmm \
+CscFeature_Common_ConfigSvcProviderForUnknownNumber \
+CscFeature_NFC_StatusBarIconType \
+CscFeature_SmartManager_ConfigSubFeatures \
+CscFeature_SmartManager_ConfigDashboard \
+CscFeature_SmartManager_DisableAntiMalware \
+CscFeature_Common_ConfigLocalSecurityPolicy \
+CscFeature_Camera_ShutterSoundMenu \
+CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting \
+CscFeature_Setting_EnableMenuNetworkMode \
+CscFeature_Setting_SupportWiFiCallingMenu \
+CscFeature_Setting_SupportWifiCall \
+CscFeature_Setting_CustNetworkSelMenu4; do
+  sed -i "/${line}/d" $feature
+done;
+sed -i '/<\/FeatureSet>/d' $feature
+sed -i '/<\/SamsungMobileFeature>/d' $feature
+echo '    <CscFeature_SystemUI_ConfigDefQuickSettingItem>Wifi,SoundMode,Bluetooth,RotationLock,AirplaneMode,Flashlight,BatteryMode,PowerShare,MobileData,BikeMode,BlueLightFilter,Hotspot,Location,DailyBoard,AllShareCast,Dnd,SecureFolder,Nfc,Aod,DeviceVisibility,Sync,UDS,PowerPlanning,EdgeLighting,Dolby,SpenRemote,KidsHome,NightMode,Routines,WifiCalling,DesktopMode,NavigationBar,DlxScreenRecord,DlxDRC,ScreenCapture,VoLte</CscFeature_SystemUI_ConfigDefQuickSettingItem>' >> $feature
+echo '    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowed</CscFeature_VoiceCall_ConfigRecording>' >> $feature
+echo '    <CscFeature_Knox_SupportKnoxGuard>FALSE</CscFeature_Knox_SupportKnoxGuard>' >> $feature
+echo '    <CscFeature_Common_SupportRmm>FALSE</CscFeature_Common_SupportRmm>' >> $feature
+if [[ $wpcount == 3 ]]; then
+  echo '    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,whitepages</CscFeature_Common_ConfigSvcProviderForUnknownNumber>' >> $feature
+else
+  echo '    <CscFeature_Common_ConfigSvcProviderForUnknownNumber>whitepages,whitepages,off</CscFeature_Common_ConfigSvcProviderForUnknownNumber>' >> $feature
+fi
+echo '    <CscFeature_NFC_StatusBarIconType>DEFAULT</CscFeature_NFC_StatusBarIconType>' >> $feature
+echo '    <CscFeature_SmartManager_ConfigSubFeatures>roguepopup|autoclean|autorestart|storageclean|backgroundapp|trafficmanager|trafficmanager_auto|data_compression|cstyle|autolaunch|appclean|fake_base_station|UDS2|devicesecurity|badappnoti</CscFeature_SmartManager_ConfigSubFeatures>' >> $feature
+echo '    <CscFeature_SmartManager_ConfigDashboard>dual_dashboard</CscFeature_SmartManager_ConfigDashboard>' >> $feature
+echo '    <CscFeature_SmartManager_DisableAntiMalware>TRUE</CscFeature_SmartManager_DisableAntiMalware>' >> $feature
+echo '    <CscFeature_Camera_ShutterSoundMenu>TRUE</CscFeature_Camera_ShutterSoundMenu>' >> $feature
+echo '    <CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>voltesettingscommon,checknonvoltesim,voltesettingOPS</CscFeature_VoiceCall_ConfigOpStyleForMobileNetSetting>' >> $feature
+echo '    <CscFeature_Setting_EnableMenuNetworkMode>TRUE</CscFeature_Setting_EnableMenuNetworkMode>' >> $feature
+echo '    <CscFeature_Setting_SupportWiFiCallingMenu>TRUE</CscFeature_Setting_SupportWiFiCallingMenu>' >> $feature
+echo '    <CscFeature_Setting_SupportWifiCall>TRUE</CscFeature_Setting_SupportWifiCall>' >> $feature
+echo '    <CscFeature_Setting_CustNetworkSelMenu4>LTEONLY</CscFeature_Setting_CustNetworkSelMenu4>' >> $feature
+echo '    <CscFeature_Common_ConfigDynamicLockScreenPolicy>MagazineLockScreen</CscFeature_Common_ConfigDynamicLockScreenPolicy>' >> $feature
+echo '  </FeatureSet>' >> $feature
+echo '</SamsungMobileFeature>' >> $feature
+for i in /system/omc/sales_code.dat /system/omc/sales_code_list.dat /system/omc/$SELECTED_CSC/etc/sales_code.dat; do
+  echo $SELECTED_CSC > $i
+done
+echo 'DeluxeROM®' > /system/lib/libdlx.so
+
+print "##"
+print "##   SETTINGS PERMISSIONS ..."
+print "##"
+extract --file "$ZIPFILE" "deluxe/others/perms.zip" "/tmp/perms.zip"
+extract --file "/tmp/perms.zip" "META-INF/com/google/android/update-binary" "/tmp/perms/update-binary"
+chmod 755 "/tmp/perms/update-binary"
+"/tmp/perms/update-binary" 3 1 "/tmp/perms.zip" &>/dev/null
+
+print "##"
+print "##   DONE! REBOOTING ..."
+print "##"
+sleep 2
+
+# Save logs, clean /tmp and reboot
+cat /tmp/aroma/.install.log > /sdcard/deluxe_csc_installer.log
+cat /tmp/recovery.log > /sdcard/deluxe_csc_recovery.log
+rm -rf /tmp
+sync
+/sbin/reboot fota_bl || /sbin/reboot system

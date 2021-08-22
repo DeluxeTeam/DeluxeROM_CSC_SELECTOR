@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-N950F_OXM_XFA_PP_0012</version>
+  <model>
+    <name>SM-N950F</name>
+  </model>
+  <common>
+    <charging>Charge</charging>
+    <networkBearer>All</networkBearer>
+    <optionalApp>checked</optionalApp>
+  </common>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0008</customerEdition>
+    <others>no</others>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <language>no</language>
+    <apps>no</apps>
+    <resources>no</resources>
+    <defaultWorkspace>yes</defaultWorkspace>
+    <defaultApplicationOrder>yes</defaultApplicationOrder>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>26</carrierCount>
+    <carrier>
+      <mcc>651</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodacom Lesotho</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodacom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>02</mnc>
+      <networkName>TelkomSA</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <networkName>Cell C</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>...</spn>
+      <networkName>MVNX-1</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>Advinne</spn>
+      <networkName>ADVINNE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>BokSel</spn>
+      <networkName>BokSel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>CallAll-SA</spn>
+      <networkName>CALLALL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>FNB</spn>
+      <networkName>FNB</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>IG Mobile</spn>
+      <networkName>IG Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>MVNX Mobile</spn>
+      <networkName>MVNX</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>NC</spn>
+      <networkName>NC</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>NEXT360 Mobile</spn>
+      <networkName>Next 360</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>OTM Mobile</spn>
+      <networkName>OTM Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>PSB NETWORK</spn>
+      <networkName>PSB NETWORK</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>Pink</spn>
+      <networkName>Pink</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>SBSA</spn>
+      <networkName>SBSA</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>Sakeng</spn>
+      <networkName>Sakeng</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>THE UNLIMITED</spn>
+      <networkName>THE UNLIMITED</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>TRACE Mobile</spn>
+      <networkName>TRACE Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>Van Schaik Mobile</spn>
+      <networkName>Van Schaik Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>Virgin Mobile</spn>
+      <subsetCode>10</subsetCode>
+      <networkName>Virgin</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>XMOBILE</spn>
+      <networkName>XMOBILE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>me&amp;you</spn>
+      <networkName>ME&amp;YOU</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <spn>vivamobile</spn>
+      <networkName>vivamobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>10</mnc>
+      <networkName>MTN</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

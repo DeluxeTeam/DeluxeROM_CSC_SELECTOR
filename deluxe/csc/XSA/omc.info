@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-N950F_OLN_XSA_PP_0019</version>
+  <model>
+    <name>SM-N950F</name>
+  </model>
+  <common>
+    <charging>Charge</charging>
+    <networkBearer>All</networkBearer>
+    <optionalApp>checked</optionalApp>
+  </common>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0004</customerEdition>
+    <others>no</others>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <language>no</language>
+    <apps>no</apps>
+    <resources>no</resources>
+    <defaultWorkspace>no</defaultWorkspace>
+    <defaultApplicationOrder>yes</defaultApplicationOrder>
+    <imsupdate>yes</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>5</carrierCount>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>01</mnc>
+      <networkName>Telstra</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>02</mnc>
+      <subsetCode>9</subsetCode>
+      <networkName>Virgin Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>02</mnc>
+      <networkName>YES OPTUS</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>03</mnc>
+      <networkName>vodafone AU</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>06</mnc>
+      <networkName>vodafone AU</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

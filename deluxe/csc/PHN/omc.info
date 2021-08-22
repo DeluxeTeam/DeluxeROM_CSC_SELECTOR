@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-N950F_OXM_PHN_PP_0015</version>
+  <model>
+    <name>SM-N950F</name>
+  </model>
+  <common>
+    <charging>Charge</charging>
+    <networkBearer>All</networkBearer>
+    <optionalApp>checked</optionalApp>
+  </common>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0009</customerEdition>
+    <others>no</others>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <language>no</language>
+    <apps>yes</apps>
+    <resources>no</resources>
+    <defaultWorkspace>yes</defaultWorkspace>
+    <defaultApplicationOrder>yes</defaultApplicationOrder>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>02</mnc>
+      <spn>Tele2 NL</spn>
+      <networkName>Tele2</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>04</mnc>
+      <networkName>vodafone NL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>08</mnc>
+      <networkName>NL KPN</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>12</mnc>
+      <networkName>NL Telfort</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>16</mnc>
+      <networkName>T-Mobile NL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>240</mcc>
+      <mnc>07</mnc>
+      <spn>Tele2 NL</spn>
+      <codeType>DEC</codeType>
+      <gid>78</gid>
+      <networkName>Tele2</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

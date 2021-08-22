@@ -1,0 +1,35 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "Enable EVS for TRUEMOVE",
+  "imsprofile_update": {
+    "profile": [
+      {
+      "name": "TRUEMOVE VoLTE",
+      "mnoname": "Truemove_TH",
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "evs_discontinuous_transmission": "0",
+      "evs_dtx_recv": "0",
+      "evs_bit_rate_send": "5.9-24.4",
+      "evs_bit_rate_receive": "5.9-24.4"
+      }
+    ],
+    "remove_profile": [
+    ]
+  },
+  "globalsettings_update": {
+    "defaultsetting": {
+    },
+    "nohitsetting": {
+    },
+    "globalsetting": [
+    ]
+  },
+  "mnomap_update": {
+      "remove_mnomap": [
+      ],
+      "add_mnomap": [
+      ]
+  }
+}

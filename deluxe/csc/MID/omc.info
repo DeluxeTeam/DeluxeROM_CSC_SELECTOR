@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-N950F_OXM_MID_PP_0005</version>
+  <model>
+    <name>SM-N950F</name>
+  </model>
+  <common>
+    <charging>Charge</charging>
+    <networkBearer>All</networkBearer>
+    <optionalApp>checked</optionalApp>
+  </common>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <others>no</others>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <language>no</language>
+    <apps>no</apps>
+    <resources>no</resources>
+    <defaultWorkspace>yes</defaultWorkspace>
+    <defaultApplicationOrder>yes</defaultApplicationOrder>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>4</carrierCount>
+    <carrier>
+      <mcc>416</mcc>
+      <mnc>01</mnc>
+      <networkName>Zain JO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>416</mcc>
+      <mnc>03</mnc>
+      <networkName>Umniah</networkName>
+    </carrier>
+    <carrier>
+      <mcc>416</mcc>
+      <mnc>77</mnc>
+      <networkName>Orange JO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>425</mcc>
+      <mnc>06</mnc>
+      <networkName>Wataniya</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

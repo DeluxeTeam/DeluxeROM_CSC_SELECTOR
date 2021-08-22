@@ -1,0 +1,31 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "SKT Ims configs for specific models.",
+  "imsprofile_update": {
+    "profile": [
+      {
+      }
+    ],
+    "remove_profile": [
+    ]
+  },
+  "globalsettings_update": {
+    "defaultsetting": {
+    },
+    "nohitsetting": {
+    },
+    "globalsetting": [
+      {
+        "mnoname": "KT_KR",
+          "sms_over_ip_indication": true
+      }
+    ]
+  },
+  "mnomap_update": {
+      "remove_mnomap": [
+      ],
+      "add_mnomap": [
+      ]
+  }
+}

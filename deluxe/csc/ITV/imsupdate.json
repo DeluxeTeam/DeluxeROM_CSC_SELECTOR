@@ -1,0 +1,392 @@
+{
+  "update_version": 2,
+  "note": "enable Chatbot, change rcs profile for Vodafone",
+  "globalsettings_update": 
+  {
+    "globalsetting": [
+      {
+        "mnoname": "Vodafone_IE",
+        "rcs_up_profile": "UP_T-b1"
+      },
+      {
+        "mnoname": "Vodafone_RO",
+        "rcs_up_profile": "UP_T-b1"
+      }
+    ]
+  }, 
+  "imsprofile_update":
+  {
+    "profile": [
+      {
+        "name": "VODAFONE Germany RCS",
+        "mnoname": "Vodafone_DE",
+        "sales_code": "CPW,VD2,VDR,ATL,OMN,VOD,VDF,VGR,TCL,VDH,XFV,VDI,CNX,DBT,XEG",
+        "rcs_profile": "UP_1.0",
+        "network": [
+        {
+          "type": "lte,umts,hspa,wifi",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "is",
+            "vs",
+            "options",
+            "euc",
+            "ec",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        },
+        {
+          "type": "gsm",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "options",
+            "euc",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        }
+        ]
+      },
+      {
+        "name": "VODAFONE Italy RCS",
+        "mnoname": "Vodafone_IT",
+		"rcs_profile": "UP_1.0",
+        "sales_code": "CPW,VD2,VDR,ATL,OMN,VOD,VDF,VGR,TCL,VDH,XFV,VDI,CNX,ITV",
+        "network": [
+        {
+          "type": "lte,umts,hspa,wifi",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "is",
+            "vs",
+            "options",
+            "euc",
+            "ec",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        },
+        {
+          "type": "gsm",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "options",
+            "euc",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        }
+        ]
+      },
+      {
+        "name": "VODAFONE UK RCS",
+        "mnoname": "Vodafone_GB",
+		"rcs_profile": "UP_1.0",
+        "sales_code": "CPW,VD2,VDR,ATL,OMN,VOD,VDF,VGR,TCL,VDH,XFV,VDI,CNX,BTU,XEU",
+        "network": [
+        {
+          "type": "lte,umts,hspa,wifi",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "is",
+            "vs",
+            "options",
+            "euc",
+            "ec",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        },
+        {
+          "type": "gsm",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "options",
+            "euc",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        }
+        ]
+      },
+      {
+        "name": "VODAFONE Spain RCS",
+        "mnoname": "Vodafone_ES",
+		"rcs_profile": "UP_1.0",
+        "sales_code": "CPW,VD2,VDR,ATL,OMN,VOD,VDF,VGR,TCL,VDH,XFV,VDI,CNX,PHE",
+        "network": [
+        {
+          "type": "lte,umts,hspa,wifi",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "is",
+            "vs",
+            "options",
+            "euc",
+            "ec",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        },
+        {
+          "type": "gsm",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "options",
+            "euc",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        }
+        ]
+      },
+      {
+        "name": "VODAFONE Portugal RCS",
+        "mnoname": "Vodafone_PT",
+		"rcs_profile": "UP_1.0",
+        "sales_code": "CPW,VD2,VDR,ATL,OMN,VOD,VDF,VGR,TCL,VDH,XFV,VDI,CNX,TPH",
+        "network": [
+        {
+          "type": "lte,umts,hspa,wifi",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "is",
+            "vs",
+            "options",
+            "euc",
+            "ec",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        },
+        {
+          "type": "gsm",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "options",
+            "euc",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        }
+        ]
+      },
+      {
+        "name": "VODAFONE Ireland RCS",
+        "mnoname": "Vodafone_IE",
+		"rcs_profile": "UP_1.0",
+        "sales_code": "CPW,VD2,VDR,ATL,OMN,VOD,VDF,VGR,TCL,VDH,XFV,VDI,CNX,BTU,XEU",
+        "network": [
+        {
+          "type": "lte,umts,hspa,wifi",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "is",
+            "vs",
+            "options",
+            "euc",
+            "ec",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        },
+        {
+          "type": "gsm",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "options",
+            "euc",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        }
+        ]
+      },
+      {
+        "name": "VODAFONE Hungary RCS",
+        "mnoname": "Vodafone_HU",
+		"rcs_profile": "UP_1.0",
+        "sales_code": "CPW,VD2,VDR,ATL,OMN,VOD,VDF,VGR,TCL,VDH,XFV,VDI,CNX,XEH",
+        "network": [
+        {
+          "type": "lte,umts,hspa,wifi",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "is",
+            "vs",
+            "options",
+            "euc",
+            "ec",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        },
+        {
+          "type": "gsm",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "options",
+            "euc",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        }
+        ]
+      },
+      {
+        "name": "VODAFONE Greece RCS",
+        "mnoname": "Vodafone_GR",
+		"rcs_profile": "UP_1.0",
+        "sales_code": "CPW,VD2,VDR,ATL,OMN,VOD,VDF,VGR,TCL,VDH,XFV,VDI,CNX,EUR",
+        "network": [
+        {
+          "type": "lte,umts,hspa,wifi",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "is",
+            "vs",
+            "options",
+            "euc",
+            "ec",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        },
+        {
+          "type": "gsm",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "options",
+            "euc",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        }
+        ]
+      },
+      {
+        "name": "VODAFONE SouthAfrica RCS",
+        "mnoname": "Vodacom_ZA",
+		"rcs_profile": "UP_1.0",
+        "sales_code": "CPW,VD2,VDR,ATL,OMN,VOD,VDF,VGR,TCL,VDH,XFV,VDI,CNX,XFA",
+        "network": [
+        {
+          "type": "lte,umts,hspa,wifi",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "is",
+            "vs",
+            "options",
+            "euc",
+            "ec",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        },
+        {
+          "type": "gsm",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "options",
+            "euc",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        }
+        ]
+        },
+      {
+        "name": "VODAFONE Romania RCS",
+        "mnoname": "Vodafone_RO",
+        "sales_code": "CPW,VD2,VDR,ATL,OMN,VOD,VDF,VGR,TCL,VDH,XFV,VDI,CNX,ROM",
+        "rcs_profile": "UP_1.0",
+        "network": [
+        {
+          "type": "lte,umts,hspa,wifi",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "is",
+            "vs",
+            "options",
+            "euc",
+            "ec",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        },
+        {
+          "type": "gsm",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "options",
+            "euc",
+            "gls",
+            "chatbot-communication"
+          ],
+          "enabled": true
+        }
+        ]
+      }             
+    ]
+  }
+}

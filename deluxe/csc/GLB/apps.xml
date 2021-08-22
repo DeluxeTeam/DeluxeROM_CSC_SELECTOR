@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>com.rsupport.rs.activity.rsupport.aas2</package>
+    <mandatory>false</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Smart Tutor</appName>
+  </appInfo>
+  <appInfo>
+    <package>com.srph.emergency321</package>
+    <mandatory>false</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Samsung 321</appName>
+  </appInfo>
+</appList>
